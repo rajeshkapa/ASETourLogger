@@ -1,0 +1,5 @@
+c:\users\rajesh\documents\visual studio 2010\Projects\TourLoggerService\TourLoggerService\bin\TourLoggerService.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\TourLoggerService\TourLoggerService\bin\TourLoggerService.pdb
+c:\users\rajesh\documents\visual studio 2010\Projects\TourLoggerService\TourLoggerService\obj\Debug\TourLoggerService.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\TourLoggerService\TourLoggerService\obj\Debug\TourLoggerService.pdb
+C:\Users\Rajesh\Documents\Visual Studio 2010\Projects\TourLoggerService\TourLoggerService\obj\Debug\TourLoggerService.csprojResolveAssemblyReference.cache
