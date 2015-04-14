@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="asepg15.umkc.edu.tourlogger.Trip"
+    android:background="@drawable/blur"
+    android:id="@+id/image">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Iterinary"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/header"
+            android:layout_toEndOf="@+id/newtrip"
+            android:textSize="30dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your trip starts in 2 days"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="15dip" />
+
+    </LinearLayout>
+
+    <view
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        class="android.support.v7.widget.Toolbar"
+        android:id="@+id/header"
+        android:background="#ff127dff">
+
+    </view>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:textColor="#ff240b1c"
+        android:id="@+id/newtrip"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:gravity="left"
+        android:layout_alignTop="@+id/header"
+        android:layout_alignStart="@+id/header" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Trip"
+        android:textColor="#ffffffff"
+        android:id="@+id/back"
+        android:clickable="true"
+        android:background="#00ffffff"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/header"
+        android:layout_toEndOf="@+id/newtrip"
+        android:capitalize="none" />
+
+    <ImageButton
+        android:id="@+id/Map"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/map"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_toEndOf="@+id/newtrip" />
+    <ImageButton
+        android:id="@+id/Attractions"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/attractions"
+        android:layout_alignTop="@+id/Map"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp" />
+
+    <ImageButton
+        android:id="@+id/Activities"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="69dp"
+
+        android:src="@drawable/tours"
+        android:layout_below="@+id/Map"
+        android:layout_alignStart="@+id/Map" />
+    <ImageButton
+        android:id="@+id/Weather"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/winter"
+        android:layout_alignTop="@+id/Carhire"
+        android:layout_alignStart="@+id/Hotels"
+        android:layout_alignEnd="@+id/Attractions"
+        android:layout_alignBottom="@+id/Carhire" />
+    <ImageButton
+        android:id="@+id/Carhire"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/car_hire"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Map"
+        android:layout_marginBottom="31dp" />
+    <ImageButton
+        android:id="@+id/Hotels"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/hotels"
+        android:layout_alignTop="@+id/Activities"
+        android:layout_alignStart="@+id/Attractions"
+        android:layout_alignEnd="@+id/Attractions" />
+
+
+</RelativeLayout>
